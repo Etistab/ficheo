@@ -1,0 +1,114 @@
+.carousel-inner img {
+      width: 100%;
+  }
+
+.cercle{
+	border-radius: 250px;
+}
+.cercle:hover{
+	border-radius: 250px;
+	border:solid;
+	border-color: black;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.bouton_profil{
+    color: black;
+}
+#notif{
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: red;
+}
+
+#fixe{
+    height:200px;
+}
+.img_footer{
+  width:64px;
+  height: 64px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img_footer:hover{
+    opacity: 0.5;
+}
+.style_footer{
+    background-color: #343a40;
+    box-shadow: 0 10px 0 0;
+    color: white;
+}
+hr{
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+#txt_footer{
+    text-align: center;
+}
+.reseaux_sociaux{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px white;
+}
+
+ul#navigation_profil{
+    list-style: none;
+    padding: 0;
+}
+
+ul#navigation_profil li a{
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0,0, 0);
+    font-size: medium;
+    font-weight: bold;
+
+}
+.bs-example{
+    margin: 20px;
+}
+
+a#newsletter{
+    display: block;
+    padding: 1em 2em 1em 2em;
+    border-radius: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #424242;
+    font-weight: bold;
+    background-color:#5bc0de;
+}
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before {
+    content: "\2665"; /* Star */
+    margin: 2px;
+    font-size: 2em;
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+.starrating > label
+{
+    color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+.checked {
+    color: orange;
+}
